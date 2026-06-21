@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>🎉 ¡Feliz Día, Papá!</title>
+  <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+
+<div id="rippleBackground" class="ripple-bg"></div>
+
+<div class="container">
+  <header>
+    <h1 class="main-title">🌸 Para Papá</h1>
+    <div class="step-counter">Paso <span id="step-num">1</span> de 5</div>
+    <button class="auto-play-btn" id="autoPlayBtn">▶ Reproducir recuerdos</button>
+  </header>
+
+  <div class="steps-container">
+
+    <!-- PASO 1 -->
+    <section class="step active" data-step="1">
+      <div class="card card-3d" id="card1">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <div class="step-number-badge">1</div>
+            <h2 class="step-title">🌟 Mi recuerdo favorito</h2>
+            <div class="step-content">
+              <span class="emoji-big">📞</span>
+              <p>Mi recuerdo favorito contigo fue la última vez que viniste a Puerto Rico, cuando estábamos con Koda y veíamos películas juntos. <b>En unos meses estaremos 6 meses juntos, Papá 🥹</b></p>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <p>✨<br><br>"De todas las llamadas, las tuyas son las que más espero."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASO 2 -->
+    <section class="step" data-step="2">
+      <div class="card card-3d" id="card2">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <div class="step-number-badge">2</div>
+            <h2 class="step-title">💪 Tu ejemplo</h2>
+            <div class="step-content">
+              <img src="img/papasolo.jpg" alt="Papá" class="step-image">
+              <p>Aunque estés lejos, tu ejemplo me llega todos los días. Te levantas super temprano para manejar tu truck, trabajas duro para darme un futuro mejor. Sin decir una palabra, me enseñaste que:</p>
+              <div class="quote">El amor es esfuerzo — La distancia no puede con la familia — Siempre vale la pena luchar por los que quieres</div>
+              <p>Y todo eso lo aprendí viéndote a ti.</p>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <p>📚<br><br>"Tus acciones hablan más fuerte que cualquier distancia."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASO 3 -->
+    <section class="step" data-step="3">
+      <div class="card card-3d" id="card3">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <div class="step-number-badge">3</div>
+            <h2 class="step-title">🚛 El camino que recorres</h2>
+            <div class="step-content">
+              <span class="emoji-big">🇺🇸</span>
+              <p>Sé que tu vida es la carretera. Manejas trucks de un lado a otro por Estados Unidos, y aunque eso significa que pasas mucho tiempo solo en la ruta, sé que cada milla la recorres pensando en nosotros.</p>
+              <div class="hobbies-grid">
+                <div class="hobby-item"><span class="hobby-icon">🚛</span>Manejando por nosotros</div>
+                <div class="hobby-item"><span class="hobby-icon">📷</span>Mandarme videos increibles</div>
+                <div class="hobby-item"><span class="hobby-icon">💖</span>Aunque estas lejos nos amas</div>
+                <div class="hobby-item"><span class="hobby-icon">🏙️</span>Descubrir nuevos horizontes</div>
+              </div>
+              <p style="margin-top:10px;font-size:0.9rem;color:#a07a5a;">Cada kilómetro es un paso más hacia nosotros. Te espero, Papá.</p>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <p>🎸<br><br>"No importa cuán lejos estés, siempre estás conmigo."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASO 4 -->
+    <section class="step" data-step="4">
+      <div class="card card-3d" id="card4">
+        <div class="card-glow"></div>
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <div class="step-number-badge">4</div>
+            <h2 class="step-title">👑 Por qué eres mi héroe</h2>
+            <div class="step-content">
+              <span class="emoji-big">🦸</span>
+              <ul>
+                <li>Porque cruzas el país manejando para darnos un futuro mejor</li>
+                <li>Porque aunque estés lejos, nunca dejas de amarme</li>
+                <li>Porque cuando te veo, tus abrazos son el mejor regalo del mundo</li>
+                <li>Porque muy pronto estaremos juntos 6 meses y seran de los mejores meses de mi vida</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <p>🏆<br><br>"No necesitas una capa para ser mi superhéroe, Papá."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PASO 5 -->
+    <section class="step" data-step="5">
+      <div class="card" id="card5">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <div class="step-number-badge">5</div>
+            <h2 class="step-title">🎉 ¡Feliz Día, Papá!</h2>
+            <div class="step-content" style="text-align:center;">
+              <div class="big-message">Te quiero con todo mi corazón</div>
+              <div class="decoration-line"></div>
+              <div class="photo-container">
+                <img src="img/FOTO.jpeg" alt="Nosotros" class="final-photo" id="finalPhoto"
+                     onerror="this.style.display='none'; document.getElementById('photoPlaceholder').style.display='flex';">
+                <div id="photoPlaceholder" style="display:none;width:240px;height:240px;margin:12px auto;background:linear-gradient(135deg,#f5e6d3,#d4a574);border-radius:16px;align-items:center;justify-content:center;border:2px dashed #d4a574;">
+                  <span style="font-family:'Dancing Script',cursive;color:#8b5e3c;">[Tu foto aquí]</span>
+                </div>
+                <div class="hidden-message" id="hiddenMsg">Gracias por estar, incluso desde lejos 💛</div>
+              </div>
+
+              <div class="timer-display" id="timerDisplay">
+                ⏳ Llevamos <span class="timer-number" id="yearsNum">0</span> años,
+                <span class="timer-number" id="monthsNum">0</span> meses y
+                <span class="timer-number" id="daysNum">0</span> días de aventuras juntos
+                <br><span style="font-size:0.85rem;color:#a07a5a;">Y pronto serán 6 meses seguidos juntos. ¡No veo la hora! 🎉</span>
+              </div>
+
+              <div class="mensaje-final">
+                <div class="sig-label">💌 Un mensaje para ti, Papá</div>
+                <p style="font-family:'Dancing Script',cursive;font-size:1.2rem;color:#8b5e3c;margin-top:4px;">Gracias por ser el mejor papá del mundo. Te espero con ansias. 💛</p>
+              </div>
+
+              <div class="celebration-text">Te amo, Papá — Tu hijo a la espera 🎃💛</div>
+            </div>
+          </div>
+          <div class="card-face card-back">
+            <div style="padding:10px 0;width:100%;">
+              <h3 style="font-family:'Dancing Script',cursive;font-size:1.5rem;color:#8b5e3c;margin-bottom:6px;">🔐 VALIS/137</h3>
+              <p style="font-size:0.8rem;color:#a07a5a;margin-bottom:10px;">Cifrado polialfabético con tablero dinámico</p>
+
+              <div style="display:flex;gap:6px;justify-content:center;margin-bottom:10px;">
+                <label style="font-size:0.85rem;cursor:pointer;"><input type="radio" name="cryptoMode" value="encrypt" checked> Cifrar</label>
+                <label style="font-size:0.85rem;cursor:pointer;"><input type="radio" name="cryptoMode" value="decrypt"> Descifrar</label>
+              </div>
+
+              <textarea id="cryptoInput" rows="2" placeholder="Texto..." class="crypto-input"></textarea>
+              <input id="cryptoKey" type="text" placeholder="Clave" class="crypto-input" style="margin-bottom:4px;">
+              <input id="cryptoSeed" type="text" placeholder="Semilla (ej: VALIS)" value="VALIS" class="crypto-input" style="margin-bottom:6px;">
+
+              <button id="cryptoBtn" class="crypto-btn">Ejecutar ▶</button>
+
+              <textarea id="cryptoOutput" rows="2" placeholder="Resultado" class="crypto-input" readonly></textarea>
+
+              <details style="margin-top:8px;text-align:left;font-size:0.8rem;color:#a07a5a;">
+                <summary style="cursor:pointer;">🔍 Crack (diccionario)</summary>
+                <textarea id="crackDict" rows="2" placeholder="Palabras separadas por coma (ej: CLAVE,VALIS,SECRETO)" class="crypto-input"></textarea>
+                <button id="crackBtn" class="crypto-btn" style="margin-top:4px;">Probar claves</button>
+                <div id="crackResult" style="font-size:0.85rem;margin-top:4px;"></div>
+              </details>
+
+              <details style="margin-top:6px;text-align:left;font-size:0.8rem;color:#a07a5a;">
+                <summary style="cursor:pointer;">⛓️ Cifrado en cadena</summary>
+                <input id="chainKeys" type="text" placeholder="Claves separadas por coma (ej: CLAVE,SECRETO)" class="crypto-input">
+                <button id="chainBtn" class="crypto-btn" style="margin-top:4px;">Cifrar en cadena</button>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <nav class="navigation">
+    <button class="nav-btn prev" id="prevBtn" disabled>‹</button>
+    <button class="gift-btn" id="nextBtn">
+      <span class="gift-lid">🎀</span>
+      <span class="gift-box-body">🎁</span>
+      <span class="gift-ribbon"></span>
+      <span class="gift-ribbon-h"></span>
+    </button>
+  </nav>
+</div>
+
+<canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+<script src="script.js"></script>
+</body>
+</html>
